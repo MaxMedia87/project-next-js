@@ -36,3 +36,18 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+# Темы освещенные в проекте
+
+## Typescript
+
+
+## React
+
+* Fragments [документация](https://reactjs.org/docs/fragments.html)
+
+## NextJS
+
+* Компонент Head [документация](https://nextjs.org/docs/api-reference/next/head)
+* Компонент Document [документация](https://nextjs.org/docs/advanced-features/custom-document)
+* getInitialProps() [документация](https://nextjs.org/docs/api-reference/data-fetching/get-initial-props)
