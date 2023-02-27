@@ -20,3 +20,6 @@ docker-build:
 
 app-npm-install:
 	docker-compose run --rm web npm install
+
+app-npm-style-fix:
+	docker-compose run --rm web npm run stylelint
