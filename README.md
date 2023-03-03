@@ -49,6 +49,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ## React
 
 * Fragments [документация](https://reactjs.org/docs/fragments.html)
+* Classnames
 
 ## NextJS
 
