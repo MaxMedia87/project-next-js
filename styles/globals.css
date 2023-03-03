@@ -18,12 +18,9 @@ body {
 
 body {
 	color: rgb(var(--foreground-rgb));
-	background: linear-gradient(
-		to bottom,
-		transparent,
-		rgb(var(--background-end-rgb))
-	)
-		rgb(var(--background-start-rgb));
+	background: linear-gradient(to bottom,
+			transparent,
+			rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
 }
 
 a {
@@ -34,8 +31,10 @@ a {
 
 :root {
 	--black: #3B434E;
+	--gray-light: #EBEBEB;
 	--white: white;
 	--primary: #7653FC;
+	--primary-hover: #4728c2;
 	--red: #FC836D;
 	--green: #1DC37E;
 	--green-light: #C8F8E4;
