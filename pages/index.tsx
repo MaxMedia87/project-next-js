@@ -1,8 +1,9 @@
+import { Htag } from '@/components';
 
 export default function Home() {
   return (
-    <div>
-      <h1>Привет, Мир!</h1>
-    </div>
+    <>
+      <Htag tag='h1'>Первый Заголовок h1</Htag>
+    </>
   );
 }

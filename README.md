@@ -39,6 +39,10 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 # Темы освещенные в проекте
 
+## JS
+
+* Деструктуризация объектов
+
 ## Typescript
 
 
@@ -51,3 +55,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 * Компонент Head [документация](https://nextjs.org/docs/api-reference/next/head)
 * Компонент Document [документация](https://nextjs.org/docs/advanced-features/custom-document)
 * getInitialProps() [документация](https://nextjs.org/docs/api-reference/data-fetching/get-initial-props)
+* Свойство children
