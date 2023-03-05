@@ -5,8 +5,8 @@ export default function Home() {
   return (
     <>
       <Htag tag='h1'>Первый Заголовок h1</Htag>
-      <Button view='primary' className='MyCustom'>Подробнее</Button>
-      <Button view='ghost'>Подробнее</Button>
+      <Button view='primary' className='MyCustom' arrow='right'>Подробнее</Button>
+      <Button view='ghost' arrow='down'>Подробнее</Button>
     </>
   );
 }
