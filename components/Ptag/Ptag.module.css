@@ -1,0 +1,17 @@
+.small p {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+.medium p {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+.large p {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 29px;
+}
