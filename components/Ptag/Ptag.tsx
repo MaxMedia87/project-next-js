@@ -4,7 +4,7 @@ import cn from 'classnames';
 
 export const Ptag = ({ size = 'medium', children, className, ...props }: PtagProps): JSX.Element => {
 	return (
-		<div
+		<p
 			className={cn(styles.p, className, {
 				[styles.small]: size === 'small',
 				[styles.medium]: size === 'medium',
@@ -12,7 +12,7 @@ export const Ptag = ({ size = 'medium', children, className, ...props }: PtagPro
 			})}
 			{...props}
 		>
-			<p>{children}</p>
-		</div>
+			{children}
+		</p>
 	);
 };
