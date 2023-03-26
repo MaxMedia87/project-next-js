@@ -6,6 +6,8 @@ import { Rating } from '@/components';
 import { useEffect, useState } from 'react';
 
 export default function Home() {
+  const [rating, setRating] = useState<number>(4);
+
   return (
     <>
       <Htag tag='h1'>Первый Заголовок h1</Htag>
@@ -18,7 +20,7 @@ export default function Home() {
       <Tag size='medium' color='red' href='http://hh.ru'>hh.ru</Tag>
       <Tag color='green'>-10 000 Р</Tag>
       <Tag color='primary'>Работа в Photoshop</Tag>
-      <Rating rating={4}></Rating>
+      <Rating rating={rating} isEdiatable setRating={setRating}></Rating>
     </>
   );
 }
