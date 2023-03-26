@@ -50,6 +50,9 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 * Fragments [документация](https://reactjs.org/docs/fragments.html)
 * Classnames
+* React Hooks 
+	* UseState [документация](https://legacy.reactjs.org/docs/hooks-state.html)
+	* UseEffect [документация](https://legacy.reactjs.org/docs/hooks-effect.html)
 
 ## NextJS
 
